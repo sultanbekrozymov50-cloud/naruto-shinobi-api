@@ -22,7 +22,6 @@ public class Main {
                 s.performJutsu();
             }
 
-            // 4. Проверка валидации (вызов исключения) [cite: 73]
             System.out.println("\nПроверка валидации:");
             try {
                 service.addShinobi(new WarriorNinja(0, "", -10));
